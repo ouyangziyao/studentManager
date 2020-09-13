@@ -1,0 +1,31 @@
+.yang1 {
+	position: absolute;
+    width: 99%;
+    font-size: 20px;
+    line-height: 20px;
+    opacity: 0.6;
+    left: 40%;
+    display: block;
+    margin-top: 150px;
+}
+.yang2 {
+	position: absolute;
+    width: 99%;
+    font-size: 20px;
+    line-height: 20px;
+    opacity: 0.6;
+    left: 40%;
+    display: block;
+    margin-top: 180px;
+}
+
+.yang3 {
+	position: absolute;
+    width: 99%;
+    font-size: 30px;
+    line-height: 20px;
+    opacity: 0.6;
+    left: 40%;
+    display: block;
+    margin-top: 250px;
+}

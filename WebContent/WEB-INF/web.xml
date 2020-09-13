@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>student_shujia2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+	<servlet-name>LoginJianChaServlet</servlet-name>
+	<servlet-class>Servlet.LoginJianChaServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>LoginJianChaServlet</servlet-name>
+	<url-pattern>/LoginJianChaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+	<servlet-name>NumQueryGradesServlet</servlet-name>
+	<servlet-class>Servlet.NumQueryGradesServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>NumQueryGradesServlet</servlet-name>
+	<url-pattern>/NumQueryGradesServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>NameQueryGradesServlet</servlet-name>
+	<servlet-class>Servlet.NameQueryGradesServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>NameQueryGradesServlet</servlet-name>
+	<url-pattern>/NameQueryGradesServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>AddGradesServlet</servlet-name>
+	<servlet-class>Servlet.AddGradesServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>AddGradesServlet</servlet-name>
+	<url-pattern>/AddGradesServlet</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+	<servlet-name>UpdateGradesServlet</servlet-name>
+	<servlet-class>Servlet.UpdateGradesServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>UpdateGradesServlet</servlet-name>
+	<url-pattern>/UpdateGradesServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>PictureServlet</servlet-name>
+	<servlet-class>Servlet.PictureServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>PictureServlet</servlet-name>
+	<url-pattern>/PictureServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>NumQueryInformationServlet</servlet-name>
+	<servlet-class>Servlet.NumQueryInformationServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>NumQueryInformationServlet</servlet-name>
+	<url-pattern>/NumQueryInformationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>AddInformationServlet</servlet-name>
+	<servlet-class>Servlet.AddInformationServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>AddInformationServlet</servlet-name>
+	<url-pattern>/AddInformationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>DeleteGradesServlet</servlet-name>
+	<servlet-class>DeleteGradesServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>Servlet.DeleteGradesServlet</servlet-name>
+	<url-pattern>/DeleteGradesServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+	<servlet-name>DeleteInformationServlet</servlet-name>
+	<servlet-class>Servlet.DeleteInformationServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>DeleteInformationServlet</servlet-name>
+	<url-pattern>/DeleteInformationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>UpdateInformationServlet</servlet-name>
+	<servlet-class>Servlet.UpdateInformationServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>UpdateInformationServlet</servlet-name>
+	<url-pattern>/UpdateInformationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>FormServlet</servlet-name>
+	<servlet-class>Servlet.FormServlet</servlet-class>
+  </servlet>
+	
+  <servlet-mapping>
+	<servlet-name>FormServlet</servlet-name>
+	<url-pattern>/FormServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
